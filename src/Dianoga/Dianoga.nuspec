@@ -1,21 +1,21 @@
-<?xml version="1.0"?>
 <package>
-    <metadata>
-        <id>$id$</id>
-        <version>$version$</version>
-        <title>$title$</title>
-        <authors>Kam Figy</authors>
+  <metadata>
+    <id>Dianoga</id>
+    <version>3.0.0.1</version>
+        <authors>Ascential Events / Kam Figy</authors>
         <owners>Kam Figy</owners>
         <licenseUrl>http://opensource.org/licenses/MIT</licenseUrl>
         <projectUrl>http://github.com/kamsar/Dianoga</projectUrl>
         <iconUrl>http://kamsar.net/nuget/dianoga/logo.png</iconUrl>
-        <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
         <description>Automatic media library image file optimization for Sitecore</description>
         <copyright>Copyright 2016</copyright>
         <tags>sitecore optimization</tags>
-    </metadata> 
-    <files>
-        <file src="Default Config Files\*" target="content\App_Config\Include\Dianoga" />
-        <file src="Dianoga Tools\**\*" target="content\App_Data\Dianoga Tools" />
-    </files>
+  </metadata>
+  <files>
+    <file src="Default Config Files\*" target="App_Config\Include\Dianoga" />
+    <file src="Dianoga Tools\**\*" target="App_Data\Dianoga Tools" />
+    <file src="bin\Release\Dianoga.dll" target="bin" />
+    <file src="bin\Release\nQuant.Core.dll" target="bin" />        
+  </files>
 </package>
